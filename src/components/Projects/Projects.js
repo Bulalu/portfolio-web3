@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
+
 import nft from "../../Assets/Projects/nft.png";
 import domain from "../../Assets/Projects/domain.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import dao from "../../Assets/Projects/dao.png";
 
 function Projects() {
@@ -58,7 +55,7 @@ function Projects() {
               imgPath={nft}
               isBlog={false}
               title="Funny NFT"
-              description="A project where a user can a NFT which generates a set of random words, this is also the NFT required to participate on the YoDAO governance"
+              description="A project where a user can mint NFT which generates a set of random words, this is also the NFT required to participate on the YoDAO governance"
               link="https://iconics-nft.vercel.app/"
             />
           </Col>
