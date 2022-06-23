@@ -5,9 +5,10 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import nft from "../../Assets/Projects/nft.png";
+import domain from "../../Assets/Projects/domain.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import dao from "../../Assets/Projects/dao.png";
 
 function Projects() {
   return (
@@ -23,64 +24,46 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={dao}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="YoDAO"
+              description="A DAO project where users can participate on governance acts such as voting and creating proposals. Only members who hold the DAO NFT token will be eligible to join. The NFT can be minted for free on the app"
+              link="https://yo-dao.vercel.app/"
             />
           </Col>
+          
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Savor"
+              description="We(Me and My Team) created Savor as our ChainLink Spring Project Hackathon.Savor is a cross-chain stable coin yield aggregator or the simplest DeFi savings account with risk spread across different chains and protocols."
+              link="https://savor-ui.netlify.app/home"
+            />
+          </Col> */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={domain}
+              isBlog={false}
+              title="Ace Name Service"
+              description="Similar to Ethereum Name Service, you can mint your own domain as NFT, this was one of my buildspace project"
+              link="https://savor-ui.netlify.app/home"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={nft}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Funny NFT"
+              description="A project where a user can a NFT which generates a set of random words, this is also the NFT required to participate on the YoDAO governance"
+              link="https://iconics-nft.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            />
-          </Col>
+         
         </Row>
       </Container>
     </Container>

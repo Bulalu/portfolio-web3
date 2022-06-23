@@ -5,7 +5,6 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,37 +18,36 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a builder who is obsessed in using cutting edge Technologies to solve challenging problems and some fun scenarios.
               <br />
-              <br />I am fluent in classics like
+              <br /> So, currently I can work with 
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Smart Contracts, EVM Compatible BlockChains, Python, DeFi, NFTs, DAOs. {" "} </b>
               </i>
+              Looking forward to expand my reach into other BlockChains in the near future
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Currently my field of interest is in the &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">BlockChain </b> space as you might have noticed 😁 and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Machine Learning and AI {" "}
                 </b>
+                 beep boop
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I like to contribute on different open source projects esp 
+              on <b className="purple">DeFi</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  ML
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              &nbsp; so if you got something cool hit me up!
+             
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -62,12 +60,12 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect </span>with me, I promise I'm cool  🤞
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Bulalu"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +75,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/elisha_bulalu"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +85,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/elisha-bulalu/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,16 +93,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              
             </ul>
           </Col>
         </Row>

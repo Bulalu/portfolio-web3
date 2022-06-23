@@ -6,6 +6,9 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
+  SiCoursera,
+  SiBrave,
+  SiParitysubstrate
 } from "react-icons/si";
 
 function Toolstack() {
@@ -24,7 +27,7 @@ function Toolstack() {
         <SiVercel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiBrave />
       </Col>
     </Row>
   );
