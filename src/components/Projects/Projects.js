@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import nft from "../../Assets/Projects/nft.png";
 import domain from "../../Assets/Projects/domain.png";
 import dao from "../../Assets/Projects/dao.png";
+import savor from "../../Assets/Projects/savor.png";
 
 function Projects() {
   return (
@@ -30,15 +31,15 @@ function Projects() {
           </Col>
           
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={savor}
               isBlog={false}
               title="Savor"
               description="We(Me and My Team) created Savor as our ChainLink Spring Project Hackathon.Savor is a cross-chain stable coin yield aggregator or the simplest DeFi savings account with risk spread across different chains and protocols."
               link="https://savor-ui.netlify.app/home"
             />
-          </Col> */}
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -46,7 +47,7 @@ function Projects() {
               isBlog={false}
               title="Ace Name Service"
               description="Similar to Ethereum Name Service, you can mint your own domain as NFT, this was one of my buildspace project"
-              link="https://savor-ui.netlify.app/home"
+              link="https://domain-frontendx.vercel.app/"
             />
           </Col>
 
