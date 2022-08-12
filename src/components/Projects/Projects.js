@@ -7,6 +7,7 @@ import nft from "../../Assets/Projects/nft.png";
 import domain from "../../Assets/Projects/domain.png";
 import dao from "../../Assets/Projects/dao.png";
 import savor from "../../Assets/Projects/savor.png";
+import musix from "../../Assets/Projects/musix.png";
 
 function Projects() {
   return (
@@ -20,6 +21,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={musix}
+              isBlog={false}
+              title="Musix"
+              description="With Musix, you can be the one to spot high quality songs earlier than anyone else! With our special incentive system, you can earn rewards for being the first to listen to and identify great new music. So put your musical taste to the test, and become a legend in the music world with Musix!"
+              link="https://musix-nu.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dao}

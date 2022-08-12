@@ -34,9 +34,9 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Make some beats (told ya I was cool  😎)
             </li>
-            <li className="about-activity">
+            {/* <li className="about-activity">
               <ImPointRight /> Sleeping
-            </li>
+            </li> */}
           </ul>
 
           
